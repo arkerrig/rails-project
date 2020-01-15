@@ -1,3 +1,7 @@
+"scripts": {
+    "start": "node index.js"
+  }
+
 {
   "name": "blogger",
   "private": true,
