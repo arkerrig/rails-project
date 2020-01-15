@@ -1,4 +1,4 @@
-class TagsController < ApplicationController::Base
+class TagsController < ApplicationController
 include TagsHelper
 
   def index
