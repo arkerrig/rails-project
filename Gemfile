@@ -5,10 +5,7 @@ ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
-# Use sqlite3 as the database for Active Record
-group :development, :test do
- gem 'sqlite3'
-end
+
 
 group :production do
   gem 'pg', '~> 0.20.0'
